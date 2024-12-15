@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .conatiner{
+            width: 500px;
+            height: 400px;
+            background-color: brown;
+            border-radius: 10px;
+            margin-top: 50px;
+            min-width: max-content;
+            max-height:max-content;
+            box-shadow: 1px 1px 10px black;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .titlle{
+            text-align: center;
+            font-size: 28px;
+            color:white;
+            margin-top: 20px;
+            font-weight: 1000;
+            letter-spacing: 5px;
+        }
+        .label{
+            color:wheat;
+            padding-left: 10px;
+        }
+        .input{
+            width:90%;
+        }
+        .button{
+            border: none;
+            outline: none;
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: red;
+            box-shadow: 1px 1px 10px 0 black;
+          }
+          .b1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+          }
+          .c{
+            width:90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+          }
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="titlle">
+            Contact Form
+        </div>
+        <div class="mb-3 c">
+            <label for="exampleFormControlInput1" class="form-label label">Email address</label>
+            <input type="email" class="form-control input" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3 c">
+            <label for="exampleFormControlTextarea1" class="form-label label">Content</label>
+            <textarea class="form-control input" id="exampleFormControlTextarea1" placeholder="Enter Content" rows="5"></textarea>
+          </div>
+          <div class="b1">
+            <button class="button">Submit</button>
+          </div>
+    </div>
+    
+</body>
+</html>

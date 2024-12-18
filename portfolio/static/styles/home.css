@@ -1,0 +1,33 @@
+.caro{
+    height: 400px;
+  }
+  .c-img{
+    height: 100%;
+    object-fit: cover;
+  }
+  .contact{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 1px 1px 10px 0 whitesmoke;
+  }
+  .contact a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+
+  }
+  body{
+    background-color: pink;
+  }

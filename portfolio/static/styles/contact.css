@@ -2,7 +2,6 @@
     background-color: pink;
     width:100%;
     height:150vh;
-   /* padding-top:50px;*/
   }
  .firstrow{
   padding-top: 30px;
@@ -73,7 +72,7 @@
     padding-top: 0px;
   }
    .contactform .send{
-    width:100px;
+    width:120px;
     height: 30px;
     outline: none;
     border: none;
